@@ -1,0 +1,134 @@
+
+body {
+background-color: black;
+}
+
+p.linespace {
+  line-height: 2;
+  font-size: 18px;
+}
+
+.linespace2 {
+  line-height: 2;
+  font-size: 18px;
+  color: #f6d2d6;
+
+  /* margin: 0 400px;
+  padding: 0 400px; */
+  /* text-align: center; */
+}
+
+/* Padding is inside the box and Margin is outside the box*/
+
+.mus{
+  text-align: center;
+}
+
+p.changelinespace {
+  line-height: 4;
+}
+
+p.parspace {
+  margin-bottom: 60px; /* between paragraphs */
+  }
+
+a.highlight:hover {
+    color: gold;
+    font-size: 30px;
+  }
+  /* Pseudo class to highlight the link */
+
+#darkgreen{
+    color: #30360f;
+}
+
+#vanishgrey{
+  color: #beab9e;
+}
+
+#brown{
+  color: #48151b;
+}
+
+#ash{
+  color: #934f28;
+}
+
+h1{
+  padding: 1px 0;
+  /* vertical - two sides */
+  background-repeat: no-repeat;
+  text-shadow: 2px 2px #FF8A37;
+}
+
+.songTitle {
+  font-size: 50px;
+}
+.artistName{
+  font-size: 40px;
+}
+#shadowtext{
+  color: #05611D;
+}
+/* id and class all independent. The id -- do not have to use it */
+/* I did not know how id works, so I named it "love" which was making no sense */
+
+#centerContent{
+  margin: auto;
+  width: 70%;
+  text-align: center;
+}
+
+#centerContent2{
+  margin: auto;
+  width: 35%;
+  text-align: center;
+}
+
+div.background {
+  background: url(lonely2.jpg);
+  border: 0px solid white;
+}
+
+div.image {
+  width: 3%;
+  /* % is based on the size of the screen. Because different screens have different display */
+  /* vw vh */
+  height: 250px;
+  background-image: url('lonely1.jpeg');
+  border: 10px solid white;
+  opacity: 1;
+}
+
+div.imagedown {
+  width: 3%;
+  height: 800px;
+  background-image: url('lonely1.jpeg');
+  border: 10px solid white;
+  opacity: 0.8;
+}
+
+/* they actually are one image but it feels cool to divide the image into two parts */
+
+div.transbox {
+  background-color: #e7ddd2;
+  border: 70px solid black;
+  opacity: 0.7;
+}
+
+div.transbox2 {
+  background-color: black;
+  border: 2px solid black;
+  font-size: 15px;
+  opacity: 0.7;
+}
+
+div.transbox p {
+  color: black;
+}
+
+p.thick {
+  font-weight: bold;
+}
+
+/* https://www.w3schools.com/css/css_examples.asp */

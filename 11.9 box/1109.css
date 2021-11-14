@@ -1,0 +1,55 @@
+/* 从大到小：margin-border-padding-auto*auto */
+/* p-tags automatically have  */
+/* command option I = go to the developer area */
+
+
+body{
+  margin: 50;
+}
+
+.box1{
+  border-color: pink;
+  border-width: 5px;
+  border-style: dashed;
+
+  /* padding = pushing content in */
+  padding : 20px;
+  margin : 20px;
+  margin-bottom : 50px;
+
+  width: 80%;
+  text-align: center;
+}
+.mything{
+  text-decoration: underline;
+  text-decoration-style: dotted;
+  text-align: center;
+  color: grey;
+
+  /* padding ; top right bottom left */
+  /* margin : top right bottom left */
+  /* better have percentenages  */
+
+}
+
+
+.text{
+  color: grey;
+  border-color: blue;
+  border-width: 50px;
+  border-style: groove;
+  border-top: 0px;
+  border-bottom: 0px;
+
+  margin-top: 0px;
+  margin-bottom: 50px;
+}
+
+.absoluteBox{
+  position:absolute;
+  left: 50px;
+}
+
+.relativeBox{
+
+}

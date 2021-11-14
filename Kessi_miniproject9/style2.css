@@ -1,0 +1,75 @@
+
+::selection {
+  color: white;
+  background-color: #e16c71;
+}
+/* Fun stuff I learned: Pseudo color for background when clicking the text */
+
+.container{
+  position:relative;
+  /* height:500px;
+  width:800px; */
+}
+
+/* #cf {
+  position:relative;
+  height:500px;
+  width:800px;
+} */
+
+.cf  {
+  position:absolute;
+  top:0px;
+  left:0px;
+  -webkit-transition: opacity 1s ease-in-out;
+  -moz-transition: opacity 1s ease-in-out;
+  -o-transition: opacity 1s ease-in-out;
+  transition: opacity 1s ease-in-out;
+}
+
+/* .cf img.top:hover {
+  opacity:0;
+} */
+
+img:hover {
+  opacity:0;
+}
+
+/* Worked a long time with Sophie to figure out this hover function in css */
+
+#centerContent{
+position:relative;
+  margin: auto;
+  width: 60%;
+  text-align: center;
+}
+
+.imgcenter{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
+.linespace {
+  position: relative;
+  top:550px;
+  line-height: 2.5;
+}
+
+#brown{
+    color: #934f28;
+    font-family: Verdana;
+    font-size: 20pt;
+    font-style: oblique;
+}
+#green{
+    color: #9db802;
+    font-family: Verdana;
+    font-size: 15pt;
+}
+#yellow{
+    color: #e2ae6c;
+    font-family: Verdana;
+    font-size: 15pt;
+}
