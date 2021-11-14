@@ -6,7 +6,7 @@ function setup(){
 // above : we can not just use p5, but also include the p5 library.
 
 //define a parent for your Canvas
-let canvas = createCanvas(windowWidth,windowHeight);
+let canvas = createCanvas(windowWidth,400);
 canvas.parent("canvasContainer");
 colorMode(HSB);
 
@@ -28,6 +28,8 @@ function draw(){
   let CB = map(sliderValue, 0, 360, 0, width);
   noStroke();
   fill(CH, CS, CB)
+  circle(x, height/2, 300, 100);
+  fill(CH, CS, 80)
   circle(x, height/2, 100, 100);
 
 }
