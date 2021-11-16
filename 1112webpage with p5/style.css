@@ -1,18 +1,63 @@
 body{
-  background-color: black;
+  background-color: white;
 }
 
-#headline{
-  color:pink;
+
+h1{
+  padding: 1px 0;
+  /* vertical - two sides */
+  background-repeat: no-repeat;
+  text-shadow: 5px 5px #FF8A37;
+  font-size: 50px;
+}
+
+#shadowtext{
+  color: "lime;"
+}
+/* id and class all independent. The id -- do not have to use it */
+/* I did not know how id works, so I named it "love" which was making no sense */
+
+#centerContent{
+  margin: auto;
+  width: 70%;
+  text-align: center;
+}
+
+
+#pink{
+  color:#FB2CFE;
+}
+
+#lime{
+  color:#00FA58;
 }
 
 .center{
   text-align: center;
 }
 
+.marginimg{
+  margin-left: 50px;
+  margin-right: 50px;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+/* .m2{
+  margin-left: 1250px;
+} */
+
+.m3{
+  margin-left: 500px;
+}
+
+.m4{
+  margin-left: 1200px;
+}
+
 canvas{
   margin-left: 10px;
   margin-right: 10px;
-  margin-top: 50px;
-  margin-bottom: 50px;
+  margin-top: 10px;
+  margin-bottom: 10px;
 }

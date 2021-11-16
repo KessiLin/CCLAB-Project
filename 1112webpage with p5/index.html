@@ -14,14 +14,62 @@
   </head>
   <body>
 
-    <h1 id="headline">Start your P5 Jounrey now</h1>
-    <div id="canvasContainer"></div>
+    <h1 style="color:pink;" id="shadowtext;" class="center"> Yoda Gang </h1>
+    <div id="canvasContainer">
     <!-- parent element is IDDDDDD not a class!!!!!! -->
+<!-- <img src="https://mtv.mtvnimages.com/uri/mgid:ao:image:mtv.com:686946?quality=0.8&format=jpg" alt=""> -->
 
-    <p id="headline">Now you can see my p5 sketch, cool ha</p>
+<img class="marginimg"src=yoda.png id='i1'style="height:25%; position:absolute; left: 500; top: 100;">
 
-    <input class="center" type="range" id="Posslider"></input>
-    <!-- why does not it works -->
+</div>
+
+
+    <div>
+  <input id="checkbox-rect" type="checkbox">
+  <label for="checkbox-rect">The unclever Yoda</label>
+</div>
+<br>
+<div>
+<input id="checkbox-bug" type="checkbox">
+<label for="checkbox-bug">The clever Yoda</label>
+<br>
+<input type=button onClick=timer() value='Start'>
+<input type=button onClick=reset1() value='Stop'>
+<div id='msg'></div>
+</div>
+<br>
+<div>
+  <input id="checkbox-circle" type="checkbox">
+  <label class="center" for="checkbox-circle">Yoda dancefloor</label>
+  <input type="range" id="Posslider"></input>
+</div>
+
+<br>
+
+
+<div>
+  <p class="m4">Type something <br> to initiate <br> Yoda Mania
+  <input id="text-input" type="text" value=""></p>
+</div>
+
+<br>
+<figure class="m4"><figcaption>Listen to Yoda's bgm:</figcaption>
+    <audio
+        controls
+        src="yoda.mp3">
+    </audio>
+</figure>
+
+<label for="pet-select" class="m3">Aloha, I am</label>
+<select>
+    <option value="">--Please identify yourself--</option>
+    <option value="dog">Yoda</option>
+    <option value="cat">Yoda Master</option>
+    <option value="hamster">Yoda Junior</option>
+    <option value="parrot">Baby Yoda</option>
+    <option value="spider">Guru</option>
+    <option value="goldfish">You Guess</option>
+</select>
 
 
     <script type="text/javascript" src="script.js"> </script>
