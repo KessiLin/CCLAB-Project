@@ -1,0 +1,61 @@
+
+body{
+  background-color: white;
+}
+
+
+
+h1{
+  padding: 1px 0;
+  /* vertical - two sides */
+  background-repeat: no-repeat;
+  text-shadow: 5px 5px #c72e4f;
+  font-size: 50px;
+}
+
+
+.center{
+  margin: auto;
+  text-align: center;
+}
+
+/* color palette : rose */
+.c1{
+  color:#c72e4f;
+}
+.c2{
+  color:#afa760;
+}
+.c3{
+  color:#a77b3f;
+}
+.c4{
+  color:#c49475;
+}
+.c5{
+  color:#442317;
+}
+
+
+.lime{
+  color:#00FA58;
+}
+
+.purple{
+  color:purple
+}
+
+.w1{
+  margin: auto;
+  width: 40%;
+}
+
+.w2{
+  margin: auto;
+  width: 60%;
+}
+
+.w3{
+  margin: auto;
+  width: 80%;
+}
