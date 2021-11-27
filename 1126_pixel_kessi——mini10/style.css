@@ -9,7 +9,7 @@ h1{
   padding: 1px 0;
   /* vertical - two sides */
   background-repeat: no-repeat;
-  text-shadow: 5px 5px #c72e4f;
+  text-shadow: 5px 5px #00FA58;
   font-size: 50px;
 }
 
@@ -36,14 +36,6 @@ h1{
   color:#442317;
 }
 
-
-.lime{
-  color:#00FA58;
-}
-
-.purple{
-  color:purple
-}
 
 .w1{
   margin: auto;
