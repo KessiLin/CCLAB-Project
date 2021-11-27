@@ -56,7 +56,7 @@ function draw() {
     for (let x=0; x<video.width; x+=gridSize) {
 
       let index = (y * video.width + x) * 4;
-      let r = video.pixels[index + 15];
+      let r = video.pixels[index + 20];
       let g = video.pixels[index + 5];
       let b = video.pixels[index + 5];
       //red + green 
