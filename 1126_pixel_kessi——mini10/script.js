@@ -3,7 +3,7 @@ let checkbox1,checkbox2,checkbox3,checkboxRect,checkboxMouse;
 
 function setup() {
 
-  let canvas = createCanvas(1000,650);
+  let canvas = createCanvas(1000,700);
   canvas.parent("canvasContainer");
 
   // webcam capture (at the size of the window)
@@ -43,6 +43,7 @@ function draw() {
     }
     pop();
 
+    // mouse!
     push();
     if (checkboxMouse.checked) {
       gridSize = int(map(mouseX, 0, width, 10, 60));
@@ -55,9 +56,11 @@ function draw() {
     for (let x=0; x<video.width; x+=gridSize) {
 
       let index = (y * video.width + x) * 4;
-      let r = video.pixels[index];
-      let g = video.pixels[index + 1];
-      let b = video.pixels[index + 2];
+      let r = video.pixels[index + 15];
+      let g = video.pixels[index + 5];
+      let b = video.pixels[index + 5];
+      //red + green 
+      //modify the diameter
       let dia = map(gridSize, 0,255, gridSize,gridSize*1.5);
       fill(r,g,b);
       noStroke();
