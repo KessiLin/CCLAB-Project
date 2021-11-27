@@ -59,11 +59,11 @@ function draw() {
       let r = video.pixels[index + 20];
       let g = video.pixels[index + 5];
       let b = video.pixels[index + 5];
-      //red + green 
-      //modify the diameter
       let dia = map(gridSize, 0,255, gridSize,gridSize*1.5);
-      fill(r,g,b);
-      noStroke();
+
+        fill(r,g,b);
+        noStroke();
+
 
       if (checkboxRect.checked) {
         gridSize = 20;
@@ -74,9 +74,3 @@ function draw() {
 
 
     }
-  }
-
-
-
-
-}
