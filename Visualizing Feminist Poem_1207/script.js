@@ -202,7 +202,6 @@ if (radio1.checked ){
 // I put the mousePressed function here >> I made a mistake
 // by defining the button in here == in draw loop == it doea not work
 // because it keeps running
-
 }
 
 else if (radio5.checked) {
