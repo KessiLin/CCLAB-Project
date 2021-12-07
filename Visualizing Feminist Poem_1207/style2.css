@@ -1,0 +1,239 @@
+
+
+.animation {
+    transition: width 2s, height 2s, transform 2s;
+}
+
+.animation:hover {
+    transform: rotate(180deg);
+}
+
+.button {
+  display: inline-block;
+  padding: 10px 20px;
+  font-size: 15px;
+  cursor: pointer;
+  text-align: center;
+  text-decoration: none;
+  outline: none;
+  color: #fff;
+  background-color: purple;
+  border: none;
+  border-radius: 10px;
+  box-shadow: 0 9px #999;
+}
+
+.button2 {
+  position: absolute;
+  top: 0.5px;
+  display: inline-block;
+  padding: 5px 5px;
+  font-size: 10px;
+  cursor: pointer;
+  text-align: center;
+  text-decoration: none;
+  outline: none;
+  color: #fff;
+  background-color: pink;
+  border: none;
+  border-radius: 10px;
+}
+
+.button:hover {background-color: lightblue}
+.button2:hover {background-color: purple}
+
+.button:active {
+  background-color: #3e8e41;
+  box-shadow: 0 5px #666;
+  transform: translateY(5px);
+  /* tranform : make it move a bit */
+}
+
+#more {display: none;}
+#more2 {display: none;}
+#more3 {display: none;}
+#more4 {display: none;}
+.buttonread {
+  display: none;
+  background-color: grey;
+  border: none;
+  color: white;
+  padding: 10px 10px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 15px;
+  margin: 4px 2px;
+  cursor: pointer;
+  transition-duration: 0.4s;
+}
+
+.buttonread2:hover {
+  box-shadow: 0 15px 18px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19);
+}
+
+
+.container{
+  position:relative;
+  /* height:500px;
+  width:800px; */
+}
+
+.textType1 {
+color: #142f48;
+text-shadow: 1px 1px lightgrey;
+font-style: italic;
+font-size: 20px;
+}
+
+.box0 {
+  background-color: 0;
+  text-align: center;
+  width: 60% auto;
+  border: 10px ;
+  padding: 0px;
+  margin: 0px;
+}
+
+.box1 {
+  background-color:#363636;
+  color: #D4D4D4;
+  font-family: Georgia, serif;
+  font-size: 20px;
+  text-align: center;
+  width: 80% auto;
+  /* width: 500px; */
+  border: 15px solid #b5bda1;
+  padding: 50px;
+  margin: 110px;
+}
+
+.box2 {
+  background-color:#363636;
+  color: #D4D4D4;
+  font-family: Georgia, serif;
+  font-size: 20px;
+  text-align: center;
+  width: 80% auto;
+  border: 15px solid #847aae;
+  padding: 50px;
+  margin: 110px;
+}
+
+.box3 {
+  background-color:#363636;
+  color: #D4D4D4;
+  font-family: Georgia, serif;
+  font-size: 20px;
+  text-align: center;
+  width: 80% auto;
+  border: 15px solid #262244;
+  padding: 50px;
+  margin: 110px;
+}
+
+.box4 {
+  background-color:#363636;
+  color: #D4D4D4;
+  font-family: Georgia, serif;
+  font-size: 20px;
+  text-align: center;
+  width: 80% auto;
+  border: 15px solid #1e8cb0;
+  padding: 50px;
+  margin: 110px;
+}
+
+a.poem {
+  font-style: italic;
+  font-size: 15px;
+  color: grey;
+  font-family: Georgia, serif;
+}
+
+.header {
+  color: white;
+  font-style: italic;
+  font-size: 20px;
+  text-shadow: 3px 3px 3px pink, 0 0 10px purple, 0 0 10px purple;
+}
+
+.header2 {
+  font-size: 15px;
+  font-style: italic;
+  color: white;
+  font-size: 20px;
+  text-shadow: 3px 3px 3px #8a9bab, 0 0 10px #8a9bab, 0 0 10px #8a9bab;
+}
+
+a.headerbelow {
+  color: white;
+  font-size: 25px;
+font-family: cursive;
+  text-shadow: 3px 3px 3px blue, 0 0 3px blue, 0 0 3px blue;
+}
+
+.cf  {
+  position:absolute;
+  top:0px;
+  left:0px;
+  -webkit-transition: opacity 1s ease-in-out;
+  -moz-transition: opacity 1s ease-in-out;
+  -o-transition: opacity 1s ease-in-out;
+  transition: opacity 1s ease-in-out;
+}
+
+img:hover {
+  opacity:0;
+}
+
+/* Worked a long time with Sophie to figure out this hover function in css */
+
+#centerContent{
+position:relative;
+  margin: auto;
+  width: 60%;
+  text-align: center;
+}
+
+.imgcenter{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
+.linespace {
+  position: relative;
+  top:550px;
+  line-height: 2.5;
+}
+
+a.textsty{
+font-family: 'Brush Script MT', cursive;
+font-size: 25px;
+}
+
+.textsty2{
+font-family: 'Brush Script MT', cursive;
+font-size: 25px;
+}
+
+/* https://www.w3.org/Style/Examples/007/fonts.en.html */
+
+/* .brown1{
+    color: #934f28;
+    font-family: Verdana;
+    font-size: 20pt;
+    font-style: oblique;
+}
+.green1{
+    color: #9db802;
+    font-family: Verdana;
+    font-size: 15pt;
+}
+.purple1{
+    color: #6e304b;
+    font-family: 'Brush Script MT';
+    font-size: 15pt;
+} */
