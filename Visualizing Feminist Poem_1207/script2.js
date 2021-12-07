@@ -37,7 +37,7 @@ function setup() {
 xdraw = mouseX;
 ydraw = mouseY;
 // poem = new drawPoem();
-  image(img1, 600, 20, 200, 300);
+image(img1, windowWidth/2, 20, 200, 300);
 
 push()
 textFont('Georgia');
