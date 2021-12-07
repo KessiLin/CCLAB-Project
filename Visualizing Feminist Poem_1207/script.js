@@ -197,6 +197,7 @@ if (radio1.checked ){
   button.style('background-color', "grey");
   button.mousePressed(loadSong1);
   pop();
+	
 // I only want the button appears at "class own" so That
 // I put the mousePressed function here >> I made a mistake
 // by defining the button in here == in draw loop == it doea not work
