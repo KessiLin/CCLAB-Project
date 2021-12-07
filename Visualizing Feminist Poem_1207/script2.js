@@ -41,7 +41,7 @@ image(img1, windowWidth/2, 20, 200, 300);
 
 push()；
 textFont('Georgia');
-fill("pink");
+fill("blue");
 textSize(10);
 textStyle(BOLDITALIC);
 text("draw the poem,", windowWidth/2,40)
