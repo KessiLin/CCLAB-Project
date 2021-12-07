@@ -189,12 +189,12 @@ if (radio1.checked ){
 
 
   push();
-  image(img3, 680, 100, 70, 90);
+  image(img3, windowWidth/2-30, windowHeight/2-300, 80, 100);
   translate(0,0);
   myOwn.update();
   myOwn.display();
-
-  button.position(688, 450);
+  button.position(windowWidth/2 - 10, windowHeight/2 + 100);
+  button.style('background-color', "grey");
   button.mousePressed(loadSong1);
   pop();
 // I only want the button appears at "class own" so That
