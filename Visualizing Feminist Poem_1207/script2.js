@@ -37,9 +37,11 @@ function setup() {
 xdraw = mouseX;
 ydraw = mouseY;
 // poem = new drawPoem();
+
+
 image(img1, windowWidth/2, 20, 200, 300);
 
-push()；
+push()
 textFont('Georgia');
 fill("pink");
 textSize(10);
@@ -47,23 +49,22 @@ textStyle(BOLDITALIC);
 text("draw the poem,", windowWidth/2,40)
 text("don't let others draw you", windowWidth/2+70, 70)
 text("press and drag to draw", windowWidth/2, 300)
-pop()；
-  
+pop()
 }
 
 function draw() {
 
-//   image(img1, 600, 20, 200, 300);
-
-//   push()
-//   textFont('Georgia');
-//   fill("pink");
-//   textSize(10);
-//   textStyle(BOLDITALIC);
-//   text("draw the poem,", 600,40)
-//   text("don't let others draw you", 670, 70)
-//   text("press and drag to draw", 650, 300)
-//   pop()
+  // image(img1, windowWidth/2, 20, 200, 300);
+  //
+  // push()
+  // textFont('Georgia');
+  // fill("pink");
+  // textSize(10);
+  // textStyle(BOLDITALIC);
+  // text("draw the poem,", windowWidth/2,40)
+  // text("don't let others draw you", windowWidth/2+70, 70)
+  // text("press and drag to draw", windowWidth/2, 300)
+  // pop()
 
 
   // image(img4, 0, 420, 200, 300);
@@ -202,6 +203,10 @@ function draw() {
   //
   //   }
 
+
+
+
   function keyPressed() {
     if (keyCode == DELETE || keyCode == BACKSPACE) background(0);
   }
+
