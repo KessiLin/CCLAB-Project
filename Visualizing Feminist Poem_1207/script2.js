@@ -201,9 +201,6 @@ function draw() {
   //
   //   }
 
-
-
-
   function keyPressed() {
     if (keyCode == DELETE || keyCode == BACKSPACE) background(0);
   }
