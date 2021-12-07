@@ -146,8 +146,11 @@ if (radio1.checked ){
 // button2.position(-1000, 450);
 
   push();
-  translate(400, -50);
+  translate(windowWidth/2, windowHeight/2);
   scale(0.8);
+
+  push()
+  translate(-400,-550);
   let x = 400;
   let y = 100;
   let s = 400;
@@ -181,6 +184,9 @@ if (radio1.checked ){
   ellipse(x - eyeSize, eyeHeight, eyeSize / 4, eyeSize / 4);
   ellipse(x + eyeSize, eyeHeight, eyeSize / 5, eyeSize / 5);
   pop();
+  pop();
+
+
 
   push();
   image(img3, 680, 100, 70, 90);
@@ -243,11 +249,14 @@ else if (radio2.checked ){
 
 push();
 button.position(-1000, 0);
-image(img4, 660, 20, 400, 600);
+push();
+translate(windowWidth/2, windowHeight/2);
+image(img4, 20, -400, 500, 700);
+pop();
 pop();
 
 push();
-translate(250,50)
+translate(windowWidth/2-400, windowHeight/2)
 for (let i = 0; i < poemTexts.length; i++) {
   // adopted from Moon's instructions and examples. The i value is used for index values and y position values.
   // the i can adjust the line space/ the style of the poem
