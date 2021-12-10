@@ -58,7 +58,7 @@ a.highlight{
     margin-right: 40px;
 }
 
-a .highlight:last-child{
+a.highlight:last-child{
   margin-right: 0px;
 }
 
