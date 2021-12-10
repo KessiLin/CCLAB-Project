@@ -3,7 +3,6 @@ html {
   /* https://css-tricks.com/snippets/jquery/smooth-scrolling/ */
 }
 
-
 body{
   padding: 1px 0;
   margin-left: 0px;
@@ -56,6 +55,11 @@ a.highlight{
     /* font-size: 15px; */
     color:blue;
     text-decoration: none;
+    margin-right: 40px;
+}
+
+a .highlight:last-child{
+  margin-right: 0px;
 }
 
 .center{
